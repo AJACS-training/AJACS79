@@ -235,7 +235,7 @@ ChIP-Atlasは、論文などで報告された ChIP-seq データを閲覧し、
 
 - 「発現差のあった遺伝子リスト」を持っている想定で、それらの遺伝子に結合しうる、あるいは上流でそれらの遺伝子の発現を制御する可能性がある転写因子を検索する
 - 使用するデータ
-  - [190821_List_of_GeneSymbol_txt](https://github.com/AJACS-training/AJACS78/blob/master/04_hono/190821_List_of_GeneSymbol.txt)
+  - [List_of_GeneSymbol_txt](https://github.com/AJACS-training/AJACS79/blob/master/03_hono/190925_List_of_GeneSymbol.txt)
     - ある「興味ある遺伝子リスト」をGeneSymbolにID変換したデータ。
     - これを使って、もともとどういう遺伝子リストだったかを考察します。
   - ChIP-Atlas では、遺伝子IDとしてGeneSymbolのみを受け付けているので、それ以外のIDで遺伝子リストを持っている場合は、適宜変換が必要です。
@@ -260,7 +260,7 @@ ChIP-Atlasは、論文などで報告された ChIP-seq データを閲覧し、
   - 今回は、どういう「興味ある遺伝子リスト」を使ったか、について上記の結果から考察してみましょう。
     - 「p-valueが低く、Overlaps/My dataが多く、Fold Enrichmentが高い」転写因子がたくさんヒットしてくる　
     - → 入力した遺伝子群をまとめて制御する、マスター転写因子を抽出できている可能性が高いと解釈できる。
-8. [答え合わせ](https://github.com/AJACS-training/AJACS78/blob/master/04_hono/190821_ChIP-Atlas_answer.md)
+8. [答え合わせ](https://github.com/AJACS-training/AJACS79/blob/master/03_hono/190925_ChIP-Atlas_answer.md)
 
 #### 関連するツール
 - [DAVID](https://david.ncifcrf.gov/home.jsp)
