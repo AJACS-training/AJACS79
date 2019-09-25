@@ -1,7 +1,7 @@
 # 次世代シーケンスデータベース
 
 Prepared for AJACS79 (AJACS十勝2)  
-12 Sep 2019
+25 Sep 2019
 
 大田達郎  
 Tazro Ohta  
@@ -12,7 +12,7 @@ Database Center for Life Science (DBCLS), Joint Support-Center for Data Science 
 
 ----
 
-これはバイオサイエンスデータベースセンター (NBDC) が主催する統合データベース講習会 AJACS79 (AJACS十勝2)「次世代シーケンスデータベース」の資料です。オンラインで閲覧することを想定しており、テキスト中にハイパーリンクが埋め込まれている箇所があります。また、随時アップデートをしていますので、最新版は https://github.com/AJACS-training/AJACS79 からご覧ください。  
+これはバイオサイエンスデータベースセンター (NBDC) が主催する統合データベース講習会 AJACS79 (AJACS十勝2)「次世代シーケンスデータベース」の資料です。オンラインで閲覧することを想定しており、テキスト中にハイパーリンクが埋め込まれている箇所があります。また、随時アップデートをしていますので、最新版は https://github.com/AJACS-training/AJACS79 からご覧ください。この資料のライセンスは [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.ja) です。  
 
 講習会のお知らせとプログラム、各講習の資料へのリンクはこちら https://biosciencedbc.jp/event/ajacs/ajacs79.html です。
 
@@ -239,11 +239,17 @@ SRAに登録されたデータを再利用したい場合には、データを�
 
 ![ChIP-Atlas in silico ChIP](./images/ca_2.png)
 
+- Reference:
+  - Shinya Oki, Tazro Ohta, et al. ChIP‐Atlas: a data‐mining suite powered by full integration of public ChIP‐seq data. EMBO Rep. (2018) e46255; doi: [10.15252/embr.201846255](https://doi.org/10.1093/nar/gkw355)
+
 #### wPGSA
 
 ![wpgsa.org](./images/wpgsa.png)
 
 [wPGSA online](http://wpgsa.org) は 理化学研究所 医科学イノベーションハブ推進プログラム  川上英良博士と DBCLS のコラボレーションで開発・運用しているウェブサービスです。遺伝子発現データを入力として与えると、与えられた発現データに関与している転写因子の予測を行います。この手法では、SRAに登録されたChIP-Seqデータの再解析結果が利用されています。
+
+- Reference:
+  - Kawakami, E., Nakaoka, S., Ohta, T., & Kitano, H. (2016). Weighted enrichment method for prediction of transcription regulators from transcriptome and global chromatin immunoprecipitation data. Nucleic acids research, gkw355. [10.1093/nar/gkw355](https://doi.org/10.1093/nar/gkw355)
 
 #### MicrobeDB.jp
 
@@ -374,14 +380,16 @@ POU5F1 の様子を見てみましょう。検索ボックスに POU5F1 と入�
   - 講習資料と講演動画が [統合TV - togotv.dbcls.jp](http://togotv.dbcls.jp) から公開されています。
 - NGSハンズオン講習会
   - http://biosciencedbc.jp/human/human-resources/workshop/h28-2
-- DDBJが提供するオンラインの解析サービスの使い方
-  - [Pipeline Tutorial](http://www.ddbj.nig.ac.jp/search/help/pipeline-tutorial-j.html)
-  - [統合TV](http://togotv.dbcls.jp/ja/)
-      - [今日からはじめるDDBJ Read Annotation Pipeline](http://togotv.dbcls.jp/20100617.html)
-      - [DDBJ Read Annotation Pipelineによるde novo Assembly解析](http://togotv.dbcls.jp/20110226.html#p01)
-  - [DDBJパイプラインとGalaxyによるデータ解析](https://github.com/inutano/training/tree/master/ajacs51)
+- [今日からはじめるDDBJ Read Annotation Pipeline](http://togotv.dbcls.jp/20100617.html)
+- [データ解析プラットフォーム Galaxy の使い方](https://github.com/inutano/training/tree/master/ajacs52)
 - 書籍: [次世代シークエンサーDRY解析教本 (細胞工学別冊)](https://www.amazon.co.jp/dp/4780909201)
-
+- 国内のコミュニティ
+  - [Pitagora Network](https://pitagora-network.org)
+  - [Workflow Dev Meetup](https://github.com/manabuishii/workflow-meetup/wiki)
+  - [Qiita - Bioinformatics](https://qiita.com/search?q=bioinformatics)
+- 海外のチュートリアル
+  - [DataCarpentry - Genomics](https://datacarpentry.org/lessons/#genomics-workshop)
+  - [Galaxy Training Network](https://galaxyproject.org/teach/gtn/)
 
 ----
 
